@@ -1,0 +1,47 @@
+# Core LangChain and LangGraph - Updated for compatibility
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.5.0
+ 
+# Async HTTP client (replaces requests)
+httpx>=0.25.0
+ 
+# HTTP client for API calls and testing
+requests>=2.31.0
+ 
+# Data validation and serialization
+pydantic[email]>=2.0.0
+pydantic-settings>=2.0.0
+ 
+# Async utilities
+asyncio-throttle>=1.0.2
+aiofiles>=23.0.0
+ 
+# Date and time utilities
+python-dateutil>=2.8.0
+ 
+# Environment management
+python-dotenv>=1.0.0
+ 
+# Logging and monitoring
+structlog>=23.0.0
+colorama>=0.4.6
+ 
+# FastAPI for REST API web service
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+ 
+# Optional: Database support
+sqlalchemy[asyncio]>=2.0.0
+asyncpg>=0.28.0
+ 
+# Optional: Redis for caching
+redis[hiredis]>=4.5.0
+ 
+# Security
+cryptography>=41.0.0
+passlib[bcrypt]>=1.7.4
+
+aiohttp>=3.10.0
